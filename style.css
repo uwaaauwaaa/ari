@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "fuente";
+    src: url("fuente.ttf");
+}
+body{
+    margin:auto;
+    background-color: rgb(243, 71, 71);
+    
+}
+.box{
+    margin: auto;
+    width: 85%;
+    text-align: center;
+    border-radius: 25px;
+    background-color: white;
+}
+#lyrics{
+    font-size: larger;
+    font-family: "fuente";
+    text-align: "justify";
+}
+#link{
+    font-size: larger;
+    font-family: "fuente";
+    text-align: center;
+}
+#lyrics_chunk{
+    width: 150px;
+    display: inline-block;
+    text-align: justify;
+    margin: 20px;
+}
+#inline_container{
+    margin: auto;
+    text-align: center;
+    display: inline-block;
+}
+
+#largest_container{
+    width: 50%;
+}
+
+/* #panzerlied{
+    
+} */
